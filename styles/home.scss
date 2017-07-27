@@ -1,9 +1,53 @@
-.nav-item{
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+$font-stack: 'Rubik', sans-serif;
 
-  font-family: Futura;
+body {
+  background: url('https://i.imgur.com/jW89FZx.png');
+  background-size: 100% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+.header {
+
+  .navbarNav {
+    font-family: $font-stack;
+    margin-top: 15px;
+    margin-right: 75px;
+
+    .nav-link {
+      color: white;
+
+    }
+    .nav-item {
+      margin-right: 50px;
+    }
+
+
+  }
+}
+
+.call-header{
+  text-align: center;
+  font-family: "Helvetica Neue";
+  color: white;
+
+  .main-header{
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
 
 }
 
-.content{
-  border: solid;
-}
+
+
+
+
+
+
+
+
+
+
+
