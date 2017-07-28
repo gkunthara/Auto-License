@@ -10,6 +10,8 @@ $gray-color: #F9F9F9;
   background-repeat: no-repeat;
   background-attachment: fixed;
   min-height: 45vh;
+  border-bottom: solid; /* fixes container extension, but weird... */
+
 
 }
 .second{
@@ -18,7 +20,10 @@ $gray-color: #F9F9F9;
 
 }
 
+.jumbotron{
+  background-color: transparent;
 
+}
 .header {
 
   .navbarNav {
@@ -67,6 +72,7 @@ $gray-color: #F9F9F9;
     font-family: $font-stack;
     color: #000;
   }
+
 
 
   h2 {

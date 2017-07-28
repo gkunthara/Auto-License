@@ -4,11 +4,16 @@
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  min-height: 45vh; }
+  min-height: 45vh;
+  border-bottom: solid;
+  /* fixes container extension, but weird... */ }
 
 .second {
   min-height: 55vh;
   background-color: #F9F9F9; }
+
+.jumbotron {
+  background-color: transparent; }
 
 .header .navbarNav {
   font-family: "Helvetica Neue", sans-serif;
