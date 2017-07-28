@@ -1,14 +1,18 @@
 @import url("https://fonts.googleapis.com/css?family=Rubik");
-body {
+.main {
   background: url("https://i.imgur.com/jW89FZx.png");
-  background-size: 100% 50%;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  min-height: 45vh; }
+
+.second {
+  m-height: 55vh;
+  background-color: #F9F9F9; }
 
 .header .navbarNav {
-  font-family: "Rubik", sans-serif;
-  margin-top: 15px;
-  margin-right: 75px; }
+  font-family: "Helvetica Neue", sans-serif;
+  margin-right: 150px; }
   .header .navbarNav .nav-link {
     color: white; }
   .header .navbarNav .nav-item {
@@ -16,10 +20,51 @@ body {
 
 .call-header {
   text-align: center;
-  font-family: "Helvetica Neue";
+  font-family: "Helvetica Neue", sans-serif;
   color: white; }
   .call-header .main-header {
-    margin-top: 25px;
-    margin-bottom: 25px; }
+    margin-top: 25px; }
+  .call-header .second-header {
+    margin-top: 45px; }
+
+.second .col-sm-3 {
+  margin-top: 50px; }
+.second .button {
+  text-decoration: none;
+  border-radius: 25px;
+  border: solid;
+  padding: 10px 30px 10px 30px;
+  font-family: "Helvetica Neue", sans-serif;
+  color: #000; }
+.second .anchor {
+  margin-left: 50px; }
+.second .knowledge {
+  margin-top: 15px;
+  margin-left: 30px; }
+.second .thumbs-up {
+  margin-left: 50px; }
+.second .quality {
+  margin-top: 15px;
+  margin-left: 50px; }
+.second .compass {
+  margin-left: 50px; }
+.second .reliable {
+  margin-top: 15px;
+  margin-left: 50px; }
+.second .reliable-p {
+  margin-top: 15px;
+  margin-right: 50px; }
+.second .knowledge-p {
+  margin-top: 15px; }
+.second .quality-p {
+  margin-top: 15px;
+  margin-right: 50px; }
+.second h2 {
+  font-family: Rubik;
+  font-weight: bold;
+  color: #4C4D5C; }
+.second p {
+  text-align: center;
+  font-family: Rubik; }
 
 /*# sourceMappingURL=home.css.map */
