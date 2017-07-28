@@ -7,7 +7,7 @@
   min-height: 45vh; }
 
 .second {
-  m-height: 55vh;
+  min-height: 55vh;
   background-color: #F9F9F9; }
 
 .header .navbarNav {
@@ -36,35 +36,14 @@
   padding: 10px 30px 10px 30px;
   font-family: "Helvetica Neue", sans-serif;
   color: #000; }
-.second .anchor {
-  margin-left: 50px; }
-.second .knowledge {
-  margin-top: 15px;
-  margin-left: 30px; }
-.second .thumbs-up {
-  margin-left: 50px; }
-.second .quality {
-  margin-top: 15px;
-  margin-left: 50px; }
-.second .compass {
-  margin-left: 50px; }
-.second .reliable {
-  margin-top: 15px;
-  margin-left: 50px; }
-.second .reliable-p {
-  margin-top: 15px;
-  margin-right: 50px; }
-.second .knowledge-p {
-  margin-top: 15px; }
-.second .quality-p {
-  margin-top: 15px;
-  margin-right: 50px; }
 .second h2 {
-  font-family: Rubik;
+  font-family: "Rubik", "Helvetica Neue";
+  margin-top: 15px;
   font-weight: bold;
   color: #4C4D5C; }
 .second p {
+  margin-top: 15px;
   text-align: center;
-  font-family: Rubik; }
+  font-family: "Rubik", "Helvetica Neue"; }
 
 /*# sourceMappingURL=home.css.map */
