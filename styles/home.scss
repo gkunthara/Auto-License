@@ -95,6 +95,25 @@ $gray-color: #F9F9F9;
 }
 
 
+@media (min-width: 1440px)
+{
+  .button{
+    font-size: 20px;
+  }
+  .nav-item{
+    font-size: 20px;
+  }
+  h1{
+    font-size: 50px;
+  }
+  h2{
+    font-size: 46px;
+  }
+  p{
+    font-size: larger;
+  }
+}
+
 
 
 

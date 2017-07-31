@@ -1,0 +1,57 @@
+@import "home";
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+
+.contact{
+
+  margin-bottom: 100px;
+
+  .contact-header {
+    font-family: $font-stack;
+    margin-top: 50px;
+  }
+  .about-container{
+    margin-top: 50px;
+
+    p{
+      margin-top: 25px;
+      font-family: Rubik, sans-serif;
+      font-size: 1.3em;
+
+    }
+
+  }
+
+  #map{
+    border: solid;
+  }
+
+  .hidden-legend{
+    margin-top: 25px;
+
+  .icon{
+    margin-bottom: 15px;
+  }
+  }
+  .legend-container{
+
+
+    .icon-container{
+      margin-bottom: 25px;
+    }
+  }
+
+}
+
+@media (min-height: 800px) {
+
+  .map-container{
+
+    margin-top: 100px;
+  }
+
+  .legend-container{
+    margin-top: 150px;
+  }
+
+}
+
