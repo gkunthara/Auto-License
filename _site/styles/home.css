@@ -1,7 +1,56 @@
-.content .header .navbarNav .nav-item {
-  color: red; }
+@import url("https://fonts.googleapis.com/css?family=Rubik");
+.main {
+  background: url("https://i.imgur.com/jW89FZx.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 45vh;
+  border-bottom: solid;
+  /* fixes container extension, but weird... */ }
 
-.content {
-  border: solid; }
+.second {
+  min-height: 55vh;
+  background-color: #F9F9F9; }
+
+.jumbotron {
+  background-color: transparent; }
+
+.header .navbarNav {
+  font-family: "Helvetica Neue", sans-serif;
+  margin-right: 150px; }
+  .header .navbarNav .nav-link {
+    color: white; }
+  .header .navbarNav .nav-item {
+    margin-right: 50px; }
+
+.call-header {
+  text-align: center;
+  font-family: "Helvetica Neue", sans-serif;
+  color: white; }
+  .call-header .main-header {
+    margin-top: 25px; }
+  .call-header .second-header {
+    margin-top: 45px; }
+
+.second .button-container {
+  margin-top: 50px; }
+.second .step-container {
+  margin-top: 50px; }
+.second .button {
+  text-decoration: none;
+  border-radius: 25px;
+  border: solid;
+  padding: 10px 30px 10px 30px;
+  font-family: "Helvetica Neue", sans-serif;
+  color: #000; }
+.second h2 {
+  font-family: "Rubik", "Helvetica Neue";
+  margin-top: 15px;
+  font-weight: bold;
+  color: #4C4D5C; }
+.second p {
+  margin-top: 15px;
+  text-align: center;
+  font-family: "Rubik", "Helvetica Neue"; }
 
 /*# sourceMappingURL=home.css.map */

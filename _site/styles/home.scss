@@ -1,7 +1,106 @@
-.content .header .navbarNav .nav-item{
- color: red;
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+$font-stack: 'Helvetica Neue', sans-serif;
+$font-color: #4C4D5C;
+$gray-color: #F9F9F9;
+
+
+.main{
+  background: url('https://i.imgur.com/jW89FZx.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 45vh;
+  border-bottom: solid; /* fixes container extension, but weird... */
+
+
+}
+.second{
+  min-height: 55vh;
+  background-color: $gray-color;
+
 }
 
-.content{
-  border: solid;
+.jumbotron{
+  background-color: transparent;
+
 }
+.header {
+
+  .navbarNav {
+    font-family: $font-stack;
+    margin-right: 150px;
+
+    .nav-link {
+      color: white;
+
+    }
+    .nav-item {
+      margin-right: 50px;
+    }
+
+
+  }
+}
+
+.call-header{
+  text-align: center;
+  font-family: $font-stack;
+  color: white;
+
+  .main-header{
+    margin-top: 25px;
+  }
+  .second-header{
+    margin-top: 45px;
+  }
+
+}
+
+
+.second {
+
+
+  .button-container{
+    margin-top: 50px;
+  }
+  .step-container{
+    margin-top: 50px;
+  }
+
+  .button {
+
+    text-decoration: none;
+    border-radius: 25px;
+    border: solid;
+    padding: 10px 30px 10px 30px;
+    font-family: $font-stack;
+    color: #000;
+  }
+
+
+
+
+  h2 {
+    font-family: "Rubik", "Helvetica Neue";
+    margin-top: 15px;
+    font-weight: bold;
+    color: $font-color;
+  }
+  p {
+    margin-top: 15px;
+    text-align: center;
+    font-family: "Rubik", "Helvetica Neue";
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
