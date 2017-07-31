@@ -81,7 +81,7 @@ $gray-color: #F9F9F9;
 
 
   h2 {
-    font-family: "Rubik", "Helvetica Neue";
+    font-family: $font-stack;
     margin-top: 15px;
     font-weight: bold;
     color: $font-color;
@@ -89,7 +89,7 @@ $gray-color: #F9F9F9;
   p {
     margin-top: 15px;
     text-align: center;
-    font-family: "Rubik", "Helvetica Neue";
+    font-family: $font-stack;
   }
 
 }
