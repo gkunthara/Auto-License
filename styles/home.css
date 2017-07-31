@@ -32,7 +32,9 @@
   .call-header .second-header {
     margin-top: 45px; }
 
-.second .col-sm-3 {
+.second .button-container {
+  margin-top: 50px; }
+.second .step-container {
   margin-top: 50px; }
 .second .button {
   text-decoration: none;
