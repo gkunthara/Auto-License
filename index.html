@@ -8,6 +8,7 @@
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
             <link rel="stylesheet" type="text/css" href="styles/home.css">
             <link rel="stylesheet" type="text/css" href="styles/contact.css">
+            <link rel="stylesheet" type="text/css" href="styles/new-to-wa.css">
             <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
@@ -30,10 +31,10 @@
                                     <a class="nav-link" href="#">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Contact</a>
+                                    <a class="nav-link page-scroll" href="#contact">Contact</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">New to WA?</a>
+                                    <a class="nav-link" href="#new-to-wa">New to WA?</a>
                                 </li>
                             </ul>
                         </div>
@@ -93,6 +94,8 @@
 
             <div class="container contact">
 
+                <a id="contact" class="smoothscroll"></a>
+
 
                 <h1 class="contact-header text-center"> Contact </h1>
 
@@ -114,8 +117,6 @@
                     <div class="col-lg-4  map-container">
 
                         <div id="map" style="height:300px;">
-                            <script src="scripts/Map.js"></script>
-                            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVyYVaKv6MfdQ9ZGul8j4oT9T2o1UEcXk&callback=myMap" type="text/javascript"></script>
                         </div>
 
                         <div class="row hidden-lg-up text-center hidden-legend">
@@ -201,8 +202,6 @@
 
                     </div>
 
-
-
                 </div>
 
 
@@ -210,5 +209,26 @@
             </div>
 
 
+
+
+
+            <div class="container-fluid new-to-wa-container">
+
+                <a id="new-to-wa" class="smoothscroll"></a>
+
+                <h1 class="new-to-wa-header text-center"> New to WA? </h1>
+                <h2 class="new-to-wa-support text-center"> You have 30 days to title & register your vehicle after it arrives here.</h2>
+                <h3 class="new-to-wa-p text-center">You may title register your vehicle by visiting our office. </h3>
+
+
+
+
+
+            </div>
+
+
+                 <script src="scripts/smooth-scrolling.js"> </script>
+                 <script src="scripts/Map.js"></script>
+                 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVyYVaKv6MfdQ9ZGul8j4oT9T2o1UEcXk&callback=myMap" type="text/javascript"></script>
             </body>
     </html>

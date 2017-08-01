@@ -1,0 +1,30 @@
+@import "home";
+
+$wa-font: "Source Sans Pro", sans-serif;
+
+.new-to-wa-container{
+  margin-bottom: 100px;
+  background-color: $gray-color;
+  font-family: $wa-font;
+  color: $font-color;
+
+  .new-to-wa-header{
+
+    font-weight: bold;
+    font-size: 48px;
+    margin-top: 50px;
+  }
+
+  .new-to-wa-support{
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .new-to-wa-p{
+    font-size: 27px;
+    font-weight: 600;
+  }
+
+
+
+
+}
