@@ -69,19 +69,24 @@
   p {
     font-size: larger; } }
 .new-to-wa-container {
-  margin-bottom: 100px;
   background-color: #F9F9F9;
   font-family: "Source Sans Pro", sans-serif;
-  color: #4C4D5C; }
+  color: #4C4D5C;
+  border-top: solid;
+  /*fixes margin issue but weird...*/ }
   .new-to-wa-container .new-to-wa-header {
     font-weight: bold;
     font-size: 48px;
     margin-top: 50px; }
   .new-to-wa-container .new-to-wa-support {
     font-weight: bold;
-    font-size: 30px; }
+    font-size: 30px;
+    margin-top: 50px; }
   .new-to-wa-container .new-to-wa-p {
     font-size: 27px;
-    font-weight: 600; }
+    font-weight: 600;
+    margin-top: 50px; }
+  .new-to-wa-container .new-to-wa-light {
+    margin-top: 50px; }
 
 /*# sourceMappingURL=new-to-wa.css.map */

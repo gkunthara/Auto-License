@@ -3,28 +3,34 @@
 $wa-font: "Source Sans Pro", sans-serif;
 
 .new-to-wa-container{
-  margin-bottom: 100px;
+
+  //height: 1200px;
   background-color: $gray-color;
   font-family: $wa-font;
   color: $font-color;
+  border-top: solid; /*fixes margin issue but weird...*/
+
 
   .new-to-wa-header{
-
     font-weight: bold;
     font-size: 48px;
     margin-top: 50px;
   }
 
+
   .new-to-wa-support{
     font-weight: bold;
     font-size: 30px;
+    margin-top: 50px;
   }
   .new-to-wa-p{
     font-size: 27px;
     font-weight: 600;
+    margin-top: 50px;
   }
-
-
+  .new-to-wa-light{
+    margin-top: 50px;
+  }
 
 
 }
