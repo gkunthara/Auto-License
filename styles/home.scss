@@ -9,13 +9,13 @@ $gray-color: #F9F9F9;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  min-height: 45vh;
+  min-height: 50vh;
   border-bottom: solid; /* fixes container extension, but weird... */
 
 
 }
 .second{
-  min-height: 55vh;
+  min-height: 50vh;
   background-color: $gray-color;
 
 }
@@ -111,6 +111,9 @@ $gray-color: #F9F9F9;
   }
   p{
     font-size: larger;
+  }
+  .call-header{
+    margin-top: 50px;
   }
 }
 
