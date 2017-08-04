@@ -1,5 +1,5 @@
 function myMap() {
-    var uluru = {lat: 47.8625106, lng: -122.28410070000001};
+    var uluru = {lat: 47.862992472118485, lng: -122.28451609611511};
     var mapOptions = {
         center: uluru,
         zoom: 16,
