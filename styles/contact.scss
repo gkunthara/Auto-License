@@ -4,9 +4,9 @@
 .contact{
 
   //height: 650px;
-  margin-top: 100px;
+  margin-top: 75px;
   margin-bottom: 100px;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: $font-stack;
   min-height: 100vh;
 
   .contact-header {
@@ -19,7 +19,6 @@
 
     p{
       margin-top: 25px;
-
       font-size: 1.5em;
 
     }
@@ -31,15 +30,17 @@
   }
 
   #map{
-    border: solid;
+    border: 1px solid;
   }
 
   .hidden-legend{
     margin-top: 25px;
 
+  }
+
+
   .icon{
     margin-bottom: 15px;
-  }
   }
   .legend-container{
 
@@ -50,5 +51,12 @@
     }
   }
 
+}
+
+@media(max-width: 426px){
+
+  .about-container p{
+    text-align: center;
+  }
 }
 

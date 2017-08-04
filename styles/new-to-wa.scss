@@ -6,9 +6,9 @@ $wa-font: "Source Sans Pro", sans-serif;
 
   //height: 1200px;
   background-color: $gray-color;
-  font-family: $wa-font;
+  font-family: "Source Sans Pro",sans-serif;
   color: $font-color;
-  border-top: solid; /*fixes margin issue but weird...*/
+  border-top: 1px solid #ebeced; /*fixes margin issue but weird...*/
   padding-bottom: 50px;
   min-height: 100vh;
 
@@ -16,6 +16,7 @@ $wa-font: "Source Sans Pro", sans-serif;
   .new-to-wa-header{
     font-weight: bold;
     font-size: 45px;
+    font-family: $font-stack;
     margin-top: 40px;
   }
 

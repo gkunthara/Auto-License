@@ -10,7 +10,7 @@ $gray-color: #F9F9F9;
   background-repeat: no-repeat;
   background-attachment: fixed;
   min-height: 50vh;
-  border-bottom: solid; /* fixes container extension, but weird... */
+  border-bottom: 2px solid #ebeced; /*fixes margin issue but weird...*/ /* fixes container extension, but weird... */
 
 
 }
@@ -20,6 +20,17 @@ $gray-color: #F9F9F9;
 
 }
 
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+
+  border-color: transparent;
+
+}
+
+.nav
 .jumbotron{
   background-color: transparent;
 
@@ -36,6 +47,11 @@ $gray-color: #F9F9F9;
     }
     .nav-item {
       margin-right: 50px;
+    }
+
+    .nav-link:hover{
+      color: white;
+      font-weight: bold;
     }
 
 
@@ -70,11 +86,15 @@ $gray-color: #F9F9F9;
   .button {
 
     text-decoration: none;
-    border-radius: 25px;
-    border: solid;
-    padding: 10px 30px 10px 30px;
+    border-radius: 4px;
+    border: 1px solid #192152;
     font-family: $font-stack;
-    color: #000;
+    color: #192152;
+  }
+
+  .button:hover{
+    background: #192152;
+    color: #fff;
   }
 
 
