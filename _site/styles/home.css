@@ -44,13 +44,29 @@
   font-family: "Helvetica Neue", sans-serif;
   color: #000; }
 .second h2 {
-  font-family: "Rubik", "Helvetica Neue";
+  font-family: "Helvetica Neue", sans-serif;
   margin-top: 15px;
   font-weight: bold;
   color: #4C4D5C; }
 .second p {
   margin-top: 15px;
   text-align: center;
-  font-family: "Rubik", "Helvetica Neue"; }
+  font-family: "Helvetica Neue", sans-serif; }
+
+@media (min-width: 1440px) {
+  .button {
+    font-size: 20px; }
+
+  .nav-item {
+    font-size: 20px; }
+
+  h1 {
+    font-size: 50px; }
+
+  h2 {
+    font-size: 46px; }
+
+  p {
+    font-size: larger; } }
 
 /*# sourceMappingURL=home.css.map */
