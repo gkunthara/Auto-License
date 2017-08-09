@@ -1,0 +1,56 @@
+@import "home";
+
+$wa-font: "Source Sans Pro", sans-serif;
+
+.new-to-wa-container{
+
+  //height: 1200px;
+  background-color: $gray-color;
+  font-family: "Source Sans Pro",sans-serif;
+  color: $font-color;
+  border-top: 1px solid #ebeced; /*fixes margin issue but weird...*/
+  padding-bottom: 50px;
+  min-height: 50vh;
+
+
+  .new-to-wa-header{
+    font-weight: bold;
+    font-size: 45px;
+    font-family: $font-stack;
+    margin-top: 40px;
+    color: #333;
+  }
+
+
+  .new-to-wa-support{
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 40px;
+    color: #333;
+  }
+  .new-to-wa-p{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+    color: #000;
+  }
+  .new-to-wa-light{
+    margin-top: 50px;
+    color: #000;
+  }
+
+
+}
+
+
+@media(max-width: 426px) {
+
+
+  h4{
+    font-size: 20px;
+  }
+
+  .sub-head{
+    display: none;
+  }
+}
