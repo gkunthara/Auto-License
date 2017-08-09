@@ -91,7 +91,7 @@
   border-top: 1px solid #ebeced;
   /*fixes margin issue but weird...*/
   padding-bottom: 50px;
-  min-height: 100vh; }
+  min-height: 50vh; }
   .new-to-wa-container .new-to-wa-header {
     font-weight: bold;
     font-size: 45px;
