@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Rubik");
 @import url("https://fonts.googleapis.com/css?family=Rubik");
 .main {
-  background: url("https://i.imgur.com/jW89FZx.png");
-  background-size: 100% 100%;
+  background: url("https://i.imgur.com/yHy2KQC.png");
+  background-size: 100% 70%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   min-height: 50vh;
@@ -97,8 +97,8 @@
   .contact .about-container {
     margin-top: 50px; }
     .contact .about-container p {
-      margin-top: 25px;
-      font-size: 1.4em; }
+      margin-top: 40px;
+      font-size: 1.2em; }
   .contact .map-container {
     margin-top: 100px; }
   .contact #map {
@@ -114,9 +114,7 @@
 
 @media (max-width: 426px) {
   .about-container p {
-    text-align: center; }
-
-  p {
-    font-size: 0.7em; } }
+    text-align: center;
+    font-size: 0.5em; } }
 
 /*# sourceMappingURL=contact.css.map */
